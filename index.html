@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Log In</title>
+</head>
+<body>
+    <div class="wrap" id="wrap">
+        <div class="wrap__header" id="wrap__header">Generate Your Placeholder</div>
+        <div class="avatar" id="avatar">
+            <input  accept="image/*"  type="file" class="avatar__inp" id="avatar__inp">
+            <div class="avatar__p" id="avatar__p"></div>
+        </div>
+        <div class="fulname" id="fulname"></div>
+        <div class="wrap__inputGroup" id="wrap__inputGroup">
+            <input type="text" placeholder="your name" class="wrap__inputGroup__inp wrap__inputGroup__inp_first" id="inpName" >
+            <input type="text" placeholder="your surname" class="wrap__inputGroup__inp" id="inpSurname">
+        </div>
+        <div class="btn" id="btn">Generate</div>
+        <div class="cancel" id="cancel"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
